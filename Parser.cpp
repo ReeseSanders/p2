@@ -37,6 +37,7 @@ DatalogProgram Parser::Parse() {
         //std::cout << index << std::endl;
         std::cout << tokens.at(index)->ToString() << std::endl;
     }
+    return myProgram;
 }
 
 bool Parser::datalogProgram(){
