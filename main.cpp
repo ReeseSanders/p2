@@ -23,8 +23,8 @@ int main(int argc, char** argv) {
     Parser* parser = new Parser(lexer->GetTokens());
     DatalogProgram myProgram = parser->Parse();
 
-    delete lexer;
-    delete parser;
+    /*delete lexer;
+    delete parser;*/
 
     return 0;
 }
