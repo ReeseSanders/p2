@@ -8,10 +8,10 @@ Parser::Parser(std::vector<Token*> tokens) {
     //std::cout << "In Parser constructor" << std::endl;
 }
 Parser::~Parser(){
-    for (unsigned int i = 0; i <tokens.size(); i++) {
+    /*for (unsigned int i = 0; i <tokens.size(); i++) {
         delete tokens.at(i);
     }
-    tokens.clear();
+    tokens.clear();*/
 }
 
 bool Parser::Match(TokenType toMatch){
