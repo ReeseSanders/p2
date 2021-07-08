@@ -24,6 +24,7 @@ int main(int argc, char** argv) {
     DatalogProgram myProgram = parser->Parse();
 
     delete lexer;
+    delete parser;
 
     return 0;
 }
