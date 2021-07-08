@@ -44,8 +44,6 @@ std::string DatalogProgram::toString(){
     for (auto it = domains.begin(); it != domains.end(); it++) {
             result += "\n  " + *it;
     }
-    
-    result += "\n";
 
     return result;
 }
