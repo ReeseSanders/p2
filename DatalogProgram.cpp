@@ -40,9 +40,9 @@ std::string DatalogProgram::toString(){
         result += "  " + query.at(i).ToString() + "?\n";
     }
 
-    result += "Domain(" + std::to_string(domains.size()) + "):" + "\n";
+    result += "Domain(" + std::to_string(domains.size()) + "):";
     for (auto it = domains.begin(); it != domains.end(); it++) {
-        result += "  " + *it + "\n";
+            result += "\n  " + *it;
     }
     
     result += "\n";
